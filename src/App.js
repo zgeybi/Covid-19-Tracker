@@ -30,14 +30,16 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
-        <Typography variant="h5">Developed By Tim Zgeybi</Typography>
-        <Typography>
+        <Typography className="details" variant="h5">
+          Developed By Tim Zgeybi
+        </Typography>
+        <Typography className="details">
           Instagram:
           <Link href="https://www.instagram.com/tim.zgeybi/">
             tim.zgeybi
           </Link>{" "}
         </Typography>
-        <Typography>
+        <Typography className="details">
           Facebook:
           <Link href="https://www.facebook.com/tim.zeghaibe.581">
             Tim Zgeybi
