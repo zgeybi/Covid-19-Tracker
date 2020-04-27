@@ -30,23 +30,19 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
-        <div className="details">
-          <Typography className="details" variant="h5">
-            Developed By Tim Zgeybi
-          </Typography>
-          <Typography>
-            Instagram:
-            <Link href="https://www.instagram.com/tim.zgeybi/">
-              tim.zgeybi
-            </Link>{" "}
-          </Typography>
-          <Typography>
-            Facebook:
-            <Link href="https://www.facebook.com/tim.zeghaibe.581">
-              Tim Zgeybi
-            </Link>
-          </Typography>
-        </div>
+        <Typography variant="h5">Developed By Tim Zgeybi</Typography>
+        <Typography>
+          Instagram:
+          <Link href="https://www.instagram.com/tim.zgeybi/">
+            tim.zgeybi
+          </Link>{" "}
+        </Typography>
+        <Typography>
+          Facebook:
+          <Link href="https://www.facebook.com/tim.zeghaibe.581">
+            Tim Zgeybi
+          </Link>
+        </Typography>
       </div>
     );
   }
