@@ -21,6 +21,9 @@ body {
   .image {
     width: 100%;
   }
+  .details {
+    text-align: center;
+  }
 }
 
 /*.details {
