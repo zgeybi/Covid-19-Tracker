@@ -15,6 +15,9 @@ body {
 }
 
 @media (max-width: 770px) {
+  /*.country {
+    font-size: 18px;
+  }*/
   .container {
     margin: 0 10%;
   }

@@ -28,7 +28,10 @@ class App extends React.Component {
       <div className={styles.container}>
         <img className={styles.image} src={corona} alt="CORONA VIRUS" />
         <Cards data={data} />
-        <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <CountryPicker
+          className="country"
+          handleCountryChange={this.handleCountryChange}
+        />
         <Chart data={data} country={country} />
         <Typography className="details" variant="h5">
           Developed By Tim Zgeybi
