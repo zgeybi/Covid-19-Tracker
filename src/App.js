@@ -34,7 +34,9 @@ class App extends React.Component {
         />
         <Chart data={data} country={country} />
         <Typography className="details" variant="h5">
-          Developed By Tim Zgeybi \n
+          Developed By Tim Zgeybi
+        </Typography>
+        <Typography className="details" variant="h6">
           Launched On the 23rd of April 2020
         </Typography>
         <Typography className="details">
