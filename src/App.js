@@ -35,11 +35,12 @@ class App extends React.Component {
         <Chart data={data} country={country} />
         <Typography className="details" variant="h5">
           Developed By Tim Zgeybi
+          On the 23rd of April 2020
         </Typography>
         <Typography className="details">
           Instagram:
-          <Link href="https://www.instagram.com/tim.zgeybi/">
-            tim.zgeybi
+          <Link href="https://www.instagram.com/zgeybi/">
+            Zgeybi
           </Link>{" "}
         </Typography>
         <Typography className="details">
