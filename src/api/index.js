@@ -25,6 +25,7 @@ export const fetchDailyData = async () => {
 
     const modifiedData = data.map((dailyData) => ({
       confirmed: dailyData.confirmed.total,
+      recovered: dailyData.recovered.total,
       deaths: dailyData.deaths.total,
       date: dailyData.reportDate,
     }));
